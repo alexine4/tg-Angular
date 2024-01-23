@@ -6,5 +6,5 @@ import { ProductComponent } from './pages/product/product.component';
 export const routes: Routes = [
     {path:'', component: ShopComponent, pathMatch:'full'},
     {path:'feedback', component: FeedbackComponent},
-    {path:'product', component: ProductComponent} 
+    {path:'product/:id', component: ProductComponent} 
 ];
